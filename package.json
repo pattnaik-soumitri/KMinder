@@ -10,6 +10,9 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "nuxt": "^3.5.1"
+    "nuxt": "^3.5.1",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.29.1"
   }
 }
