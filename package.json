@@ -1,18 +1,16 @@
 {
-  "name": "nuxt-app",
+  "name": "kminder",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/node": "^18",
-    "nuxt": "^3.5.1",
-    "primeflex": "^3.3.0",
-    "primeicons": "^6.0.1",
-    "primevue": "^3.29.1"
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "svelte": "^4.0.0",
+    "vite": "^4.3.9"
   }
 }
