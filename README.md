@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Todos
+
+- [] - Implement auth guards
+- [] - Implement logout functionality
+- [] - Implement functional footer
