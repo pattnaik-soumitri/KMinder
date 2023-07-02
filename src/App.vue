@@ -29,7 +29,7 @@ onMounted(() => {
           <!-- NAVS -->
           <ul>
             <li><router-link to="about">About</router-link></li>
-            <li v-if="!isLoggedIn"><router-link to="login" role="button">Login</router-link></li>
+            <li v-if="!isLoggedIn()"><router-link to="login" role="button">Login</router-link></li>
           </ul>
         </nav>
     </header>
