@@ -1,1 +1,16 @@
 @import './base.css';
+
+:root {
+    --info: blue;
+    --success: green;
+    --warning: orange;
+    --danger: red;
+}
+
+.alert-danger {
+    padding: 1em;
+    border: solid var(--danger) 1px;
+    border-radius: 4px;
+    color: var(--danger);
+    font-size: medium;
+}
